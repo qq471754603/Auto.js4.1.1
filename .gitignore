@@ -1,0 +1,10 @@
+.idea
+*.log
+*.css.map
+!.gitkeep
+.env
+.svn
+.vscode
+.gradle
+.git
+.DS_Store

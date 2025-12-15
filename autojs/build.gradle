@@ -36,7 +36,42 @@ repositories {
     flatDir {
         dirs 'libs'
     }
+    maven { url 'https://mvnrepository.com/artifact' }
+    maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+    maven { url 'https://maven.aliyun.com/nexus/content/repositories/jcenter' }
+    maven { url 'https://maven.aliyun.com/repository/public' }
+    maven { url 'https://maven.aliyun.com/repository/central' }
+    maven { url 'https://maven.aliyun.com/repository/spring' }
+    maven { url 'https://maven.aliyun.com/repository/spring-plugin' }
+    maven { url 'https://maven.aliyun.com/repository/apache-snapshots' }
+    maven { url 'https://maven.aliyun.com/repository/google' }
+    maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+    maven { url 'https://maven.aliyun.com/repository/jcenter' }
+    maven { url 'https://maven.aliyun.com/repository/releases' }
+    maven { url 'https://maven.aliyun.com/repository/snapshots' }
+    maven { url 'https://maven.aliyun.com/repository/grails-core' }
+    maven { url 'https://maven.aliyun.com/repository/mapr-public' }
+    maven { url 'https://developer.huawei.com/repo/' }
+    maven {
+        url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_support/"
+    }
+    maven {
+        url "https://artifact.bytedance.com/repository/pangle"
+    }
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+//        jcenter()
+    maven {
+        url "https://jitpack.io"
+    }
     google()
+    mavenCentral()
+//
+    maven { url 'https://maven.aliyun.com/repository/central' }
+    maven { url 'https://maven.aliyun.com/repository/public' }
+    maven { url 'https://maven.aliyun.com/repository/google' }
+    maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+    maven { url 'https://maven.aliyun.com/repository/releases' }
+    maven { url 'https://repo.gradle.org/artifactory/jitpack/' }
 }
 
 dependencies {
@@ -61,6 +96,8 @@ dependencies {
     api 'org.jdeferred:jdeferred-android-aar:1.2.6'
     //RootShell
     api 'com.github.Stericson:RootShell:1.6'
+//    api(name: 'RootShell-1.6', ext: 'aar')
+
     // Gson
     api 'com.google.code.gson:gson:2.8.2'
     // log4j

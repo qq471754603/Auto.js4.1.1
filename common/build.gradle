@@ -34,5 +34,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     api 'androidx.annotation:annotation:1.0.0'
+    api 'androidx.core:core:1.0.0'
     api 'com.github.hyb1996:settingscompat:1.1.5'
 }
